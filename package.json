@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "cd src && http-server -p 3333",
-    "bundle": "browserify src/semi-pie-example.js -o src/bundle.js"
+    "bundle": "browserify src/SprayChartPie.js -o src/sprayChartBundle.js"
   },
   "keywords": [],
   "author": "",
