@@ -1,0 +1,20 @@
+/** 
+ * File: spray-chart.css
+ * Desc: component styles for the spray chart
+*/
+
+/* I. Tag Styles (bad boy) */
+h3 {
+  background: green;
+  color: white;
+}
+
+svg {
+  border: 1px dashed red;
+}
+
+/* II. Class Styles (kindof) (good boy) */
+.slice text {
+  font-size: 15px;
+  color: #fff;
+}

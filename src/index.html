@@ -4,28 +4,34 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MLB Spray Chart with D3</title>
-
-    <style>
-      h3 {
-        background: green;
-        color: white;
-      }
-    </style>
+    <link rel="stylesheet" href="styles/spray-chart.css" />
   </head>
   <body>
     <h3>MLB Spray Chart with D3</h3>
 
-    <img
-      src="assets/diamond-bground.png"
-      alt="Baseball Diamond"
-      width="600px"
-      height="400px"
-    />
+    <!-- <svg width="835" height="485">
+      <image
+        xlink:href="assets/diamond-bground.png"
+        preserveAspectRatio="none"
+        width="100%"
+        height="100%"
+      />
+
+      <circle
+        cx="411"
+        cy="330"
+        r="5"
+        stroke="black"
+        stroke-width="1"
+        fill="rgba(255,0,0,0.25)"
+      />
+    </svg> -->
 
     <!-- mount point 0 -->
     <div id="semi-pie-example"></div>
 
     <!-- know can include semi-circle pie here and just give a mount point -->
+    <script src="bundle.js"></script>
     <script src="main.js"></script>
   </body>
 </html>
